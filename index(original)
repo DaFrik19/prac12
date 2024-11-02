@@ -1,0 +1,185 @@
+<!--A quién lea esto quiero que sepa que seguro la página se 
+rompe al momento de abrirla en un teléfono :3-->
+
+<!--⣿⣿⣿⣿⣿⣿⣿⢿⠟⠛⠿⠻⠿⠿⠟⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⡿⠛⢙⣨⣥⣶⣶⣿⢿⣿⣿⣷⣦⣅⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⠟⢀⡴⠟⠋⢉⣀⣠⣤⣤⣤⣀⠉⠻⣿⣧⡈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⠀⠁⣠⣴⣾⣿⣿⣿⣿⣿⣿⣿⣷⠀⢻⣿⣇⠝⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⡀⣼⡿⠟⠀⠙⣛⣬⠱⣿⣿⣿⣿⣿⣿
+⣿⣿⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⢀⠄⠁⣠⣶⣾⣿⣿⣿⡆⣼⣿⣿⣿⣿⣿
+⣿⣿⠀⣀⠙⣛⣛⣻⠛⠋⣉⣢⣤⣾⠃⣰⡄⠸⣿⣿⣿⣿⣿⣷⠘⣿⣿⣿⣿⣿
+⣿⣿⣤⢹⣷⣶⣶⣶⣾⣿⣿⣿⣿⣿⡄⠸⣷⠀⢻⣿⣿⡿⠟⠛⠡⣿⣿⣿⣿⣿
+⣿⣿⣿⠄⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠄⠻⠇⢈⠁⠀⠀⠲⠠⠞⠿⣿⣿⣿⣿
+⣿⣿⣿⣷⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣶⢤⠀⠀⢲⣿⣿⣿⣷⣤⡉⣻⣿⣿
+⣿⣿⣿⣿⣧⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣳⡀⢻⣿⣿⣿⣿⣷⠐⣿⣿
+⣿⣿⣿⣿⣿⣯⡈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⡇⡆⣿⣿⣿⣿⡟⣀⣿⣿
+⣿⣿⣿⣿⣿⣿⣷⡀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⢃⡿⠿⠛⡋⣀⣾⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣷⣀⠹⣿⣿⣿⣿⣿⣿⣿⠿⠋⢁⣠⣿⡦⠐⠀⢈⡙⢿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠋⢀⣿⣿⣿⣿⠟⢃⣤⣤⡀⠻⣿⣇⣠⣴⡿⠄⠹⣧⡸⣿
+⣿⣿⣿⣿⣿⣿⡿⠃⢠⣾⣿⣿⡿⢋⣤⣿⣿⣿⣿⣄⠈⢿⡿⠋⣠⣤⣀⠈⣡⣿
+⣿⣿⣿⠅⣀⣈⠁⣰⣿⣿⡿⠋⣤⣾⣿⣿⣿⣿⣿⣿⣷⣵⣂⣽⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣄⠘⢿⣿⣿⠟⠋⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣷⣤⣬⣅⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿-->
+
+<!DOCTYPE html>
+<html lang="es"
+
+
+<head>
+    <!--Titulo-->
+    <link rel="icon" href="./imagenes/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "stylesheet.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <header> 
+    <center>
+        <img src="./imagenes/titulo.png" 
+        alt="Una serie de eventos desafortunados">
+        <p> </p>
+        <h2>Marcos Ramírez Licea</h2>
+    </center>
+    <meta name="descripción" content="No deberías estar leyendo esto, me da cosa pensar que alguien puede acceder o siquiera ver esto">
+    <meta name="Palabras clave" content="amogus, tareas, palabra, xosa, eventos desafortunados">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+    </header>
+</head>
+
+<br></br>
+
+<body>
+ <p>   
+
+    <div>
+    <!--Casilla de la izquierda-->
+    <aside>
+        <div class="text-center"> 
+            <p>Fecha de estreno:</p>
+            <p>13 de enero de 2017</p>
+             <br></br>
+            <p>País de origen:</p>
+            <p>Estados Unidos</p>
+            <a href="https://www.youtube.com/watch?v=ZK1pNGmNBEc&list=PLN1LPImPw_PlDRy10sDskVGszKZcbXaDn&ab_channel=DeactivatedChannel">
+        redes
+             </a>
+        </div>
+    </aside>
+    
+    <!--Casilla de la derecha-->
+    <aside1>
+    <div class="text-center"> 
+        <p>Género:</p>
+        <p>Acción, comedia, y misterio</p>
+        <br></br>
+        <p>Sinopsis:</p>
+        <p>Tres hermanos quedan huerfanos tras la misteriosa desaparición de sus padres y son adoptados por un villano 
+            que está tras su fortuna </p>
+    </div>
+    </aside1>
+    
+    <!--Casilla del centro-->
+    <aside2>
+        <div class="text-center"> 
+        <center>Temporadas</center>
+        <p>Temporada 1:</p>
+        <ol>
+            <li>Un mal principio pt.1</li>
+            <li>Un mal principio pt.2</li>
+            <li>La habitación de los reptiles pt.1</li>
+            <li>La habitación de los reptiles pt.2</li>
+            <li>El ventanal pt.1</li>
+            <li>El ventanal pt.2</li>
+            <li>El aserradero lugubre pt.1</li>
+            <li>El aserradero lugubre pt.2</li>
+        </div>    
+        </ol>
+
+        <p>Temporada 2:</p>
+        <ol>
+            <li>Una academia austera pt.1</li>
+            <li>Una academia austera pt.2</li>
+            <li>Ascensor artificioso pt.1</li>
+            <li>Ascensor artificioso pt.2</li>
+            <li>Villa Vil pt.1</li>
+            <li>Villa Vil pt.2</li>
+            <li>Hospital Hostil pt.1</li>
+            <li>Hospital Hostil pt.2</li>
+            <li>Carnaval Carnivoro pt.1</li>
+            <li>Carnaval Carnivoro pt.2</li>
+        </ol>   
+        
+        <p>Temporada 3:</p>
+        <ol>
+            <li>Cuesta Resbalosa pt.1</li>
+            <li>Cuesta Resbalosa pt.2</li>
+            <li>gruta horrenda pt.1</li>
+            <li>gruta horrenda pt.2</li>
+            <li>penultimo peligro pt.1</li>
+            <li>penultimo peligro pt.2</li>
+            <li>El Fin</li>
+        </ol>
+    </aside2>
+ </p>
+ </div>
+ 
+
+ <!-- Tabla -->
+ <div>
+ <article>
+ <center>
+ <table border="1">
+    <tr>
+      <th>Personaje</th>
+      <th>Foto</th>
+      <th>Rol</th>
+    </tr>
+    <tr>
+      <td>Klaus Baudelaier</td>
+      <td><img src="imagenes/Klaus.jpg"></td>
+      <td>Ávido lector, y conocedor de códigos</td>
+    </tr>
+    <tr>
+      <td>Violet Baudelaier</td>
+      <td><img src="imagenes/violet.jpg"></td>
+      <td>Ingeniera, e inventora</td>
+    </tr>
+    <tr>
+      <td>Conde Olaf</td>
+      <td><img src="imagenes/Olaf.jpg"></td>
+      <td>Villano de la serie, y pésimo actor</td>
+    </tr>
+ </table>
+ </center>
+ </article>
+ </div>
+
+ <div>
+
+    <imgen>
+        
+    <img src="imagenes/promo.jpg">
+
+    </imgen>
+ 
+ </div>
+
+ <div>
+    <vid>
+    <center>
+    <video src="imagenes/Trailer.mp4"></video>
+    </center>
+    </vid>    
+ </div>
+
+
+
+
+</body>
+
+
+
+
+
+
